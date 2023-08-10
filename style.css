@@ -1,0 +1,285 @@
+/*1rem ~ 16 px*/
+
+
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;      /* border size is equal to height and width*/
+}
+.navigbar{
+    
+    height: 55px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navig-logo{
+    height: 45px;
+    width: 110px;
+}
+.logo{
+    background-image: url("Logo.png");       /*div tab dikhta hai jab usko kuch height aur width detd hai*/
+    background-size: cover;
+    height: 45px;
+    width: 110px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 0.25px solid white;
+}
+
+.del{
+    align-items: center;
+    color: #CCCCCC;
+    font-size: 0.25rem;
+    margin-left: 27px;
+}
+.location{
+    align-items: center;
+    color: white;
+    font-size: 1.25rem;
+}
+.addr-icon{
+    align-items: center;
+    display: flex;
+}
+
+.navig-search{
+    
+    justify-content: space-between;
+    background-color: #febd68;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.search-select{
+    
+    background-color: #f3f3f3;
+    height: 45px;
+    width: 55px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.serach-input{
+    width: 500px;
+    height: 55px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 40px;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.navig-search:hover{
+    border: 2px solid #febd68;
+}
+
+/*Country wale ki styling hai yaha*/
+
+.span{
+    align-items: center;
+    font-size: 0.8rem;
+}
+.addr{
+    align-items: center;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+
+.cart i{
+    font-size: 32px;
+}
+
+.cart{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+
+.pannel{
+    height: 35px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.secondpan p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.secondpan{
+    width: 75%;
+    font-size: 0.9rem;
+}
+
+.thirdpan{
+    font-size: 1 rem;
+    font-weight: 700;
+}
+
+.mainsection{
+    background-image: url("MainSection.jpg");
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.textmessage{
+    background-color: white;
+    color: black;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.textmessage a{
+    color: #007185;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(250, 250, 161);
+}
+
+.box{
+    height: 400px;
+    width: 24%;
+    /*border: 2px solid black;*/
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 6px;
+}
+
+.box-img{
+    height: 375px;
+    background-size: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+.box-content{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.new-box{
+    background-color: rgb(250, 250, 161);
+    margin-top: 3rem;
+    display: flex;
+}
+
+.new-box p{
+    
+    margin-top: 15px;
+    margin-left: 4rem;
+    color: #007185;
+}
+.images{
+    display: flex;
+}
+
+footer{
+    margin-top: 4.5rem;
+}
+
+.bttop{
+    
+    background-color: #37475a;
+    color: white;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.fpsec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+}
+
+ul{
+    margin-top: 1.5rem;
+}
+
+ul p{
+    margin-top: 3.5rem;
+    font-size: 1.75rem
+    
+}
+
+ul a{
+    display:block;
+    font-size: 12px;
+    margin-top: 0.75rem;
+    color: #dddddd;
+}
+
+.fplast{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.6px solid white;
+    height: 4.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("Logo.png");       
+    background-size: cover;
+    height: 45px;
+    width: 100px;
+}
+
+.fpfour{
+    background-color: #0f1111;
+    color: white;
+    /*display: flex;*/
+    justify-content: center;
+    /*align-items: center;*/
+    height: 4.75rem;
+    font-size: 0.85rem;
+    text-align: center;
+
+}
+
+.privacypol{
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.copyrights{
+    padding-top: 0.33rem;
+}
